@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
 
-const VALID_TOKEN = "bn:ANd9GcTTcY16BnOi1zJPxCFAwh3G_AjkpE8GzY4ZPkJbzFLh9i0cyCLKu4_tzy4&s";
+const VALID_TOKEN = "bn-ANd9GcTTcY16BnOi1zJPxCFAwh3G_AjkpE8GzY4ZPkJbzFLh9i0cyCLKu4_tzy4s";
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
 const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY!;

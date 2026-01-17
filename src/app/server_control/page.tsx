@@ -7,7 +7,7 @@ import Script from "next/script";
 import { Logo } from "@/components/Logo";
 import { supabaseClient } from "@/lib/supabase-client";
 
-const VALID_TOKEN = "bn:ANd9GcTTcY16BnOi1zJPxCFAwh3G_AjkpE8GzY4ZPkJbzFLh9i0cyCLKu4_tzy4&s";
+const VALID_TOKEN = "bn-ANd9GcTTcY16BnOi1zJPxCFAwh3G_AjkpE8GzY4ZPkJbzFLh9i0cyCLKu4_tzy4s";
 
 interface ServerStatus {
   is_down: boolean;
